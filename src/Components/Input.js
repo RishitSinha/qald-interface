@@ -7,7 +7,7 @@ export default class Input extends Component {
     this.state = {
       error: null,
       recognition: null,
-      query: "",
+      query: "How high is the Landegode Lighthouse?",
       listening: false
     };
   }
