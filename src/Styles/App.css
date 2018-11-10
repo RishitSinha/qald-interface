@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /*height: 100vh;*/
+  width: 100%;
+  background-color: black;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  background: #141326;
+}
+
+.header {
+  padding: 0.5em 0.5em;
+  width: 100%;
+  /*border-bottom: 1px solid black;*/
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  font-size: 1.66em;
+}
+
+.inputWrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 4em;
+  align-items: center;
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);*/
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.inputWrapper input {
+  border: none;
+  background-color: rgba(200, 200, 200, 0);
+  border-radius: 1000px;
+  padding: 1.33em;
+  font-size: 1.125em;
+  outline: none;
+  margin: auto;
+  align-items: center;
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);*/
+  width: 70vw;
+  height: 2em;
+  color: white;
+}
+
+.inputWrapper button {
+  height: 4em;
+  width: 4em;
+  border: none;
+  position: relative;
+  padding: 0;
+  background: #2b2a41;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: auto;
+  transform: scale(0.9);
+}
+
+.inputWrapper button img {
+  height: 66%;
+  width: 66%;
+  /*opacity: 0.5;*/
+  filter: invert(1);
+  transform: scale(0.8);
+}
+
+.inputWrapper button:nth-child(3) {
+  background-color: #ff1e1e;
+}
+
+.inputWrapper button:nth-child(3) img {
+  height: 66%;
+  width: 66%;
+  /*opacity: 0.5;*/
+  transform: scale(0.8) translate(10%, 0);
+}
+
+.messageView {
+  width: 100%;
+  flex: 1;
+  margin-bottom: 4em;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.messageElement {
+  background-color: #2b2a41;
+  margin: 0.5em 1em;
+  padding: 1em;
+  border-radius: 0.5em;
+  max-width: 75%;
+  width: auto;
+  color: white;
+}
+
+.messageElement.response {
+  background-color: #ffffff;
+  color: #2b2a41;
+  align-self: flex-start;
+}
+
+button.listening {
+  background-color: #ff1e1e;
+}
+
+button.listening img {
+  filter: invert(1);
+  opacity: 1;
+}
+
+@media screen and (min-device-width: 481px) {
+  .App {
+    position: absolute;
+    right: 10vw;
+    width: 40vw;
+    margin-left: 25vw;
+  }
+
+  .inputWrapper input {
+    width: 27.5vw;
+    flex: 1;
+  }
+}
