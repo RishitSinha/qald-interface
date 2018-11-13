@@ -1,0 +1,13 @@
+{
+  "main.css": "/qald-interface/build/static/css/main.3f5b8651.chunk.css",
+  "main.js": "/qald-interface/build/static/js/main.4bb3f61e.chunk.js",
+  "main.js.map": "/qald-interface/build/static/js/main.4bb3f61e.chunk.js.map",
+  "static/js/1.9be43a8d.chunk.js": "/qald-interface/build/static/js/1.9be43a8d.chunk.js",
+  "static/js/1.9be43a8d.chunk.js.map": "/qald-interface/build/static/js/1.9be43a8d.chunk.js.map",
+  "runtime~main.js": "/qald-interface/build/static/js/runtime~main.3f90ad14.js",
+  "runtime~main.js.map": "/qald-interface/build/static/js/runtime~main.3f90ad14.js.map",
+  "static/css/main.3f5b8651.chunk.css.map": "/qald-interface/build/static/css/main.3f5b8651.chunk.css.map",
+  "index.html": "/qald-interface/build/index.html",
+  "precache-manifest.40a62d16ecf0285d95ff0efc4f505ca5.js": "/qald-interface/build/precache-manifest.40a62d16ecf0285d95ff0efc4f505ca5.js",
+  "service-worker.js": "/qald-interface/build/service-worker.js"
+}
