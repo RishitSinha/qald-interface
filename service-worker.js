@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/qald-interface/build/precache-manifest.40a62d16ecf0285d95ff0efc4f505ca5.js"
+  "/qald-interface/precache-manifest.d94ff32ce52da39d7c825f15964a4189.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/qald-interface/build/index.html", {
+workbox.routing.registerNavigationRoute("/qald-interface/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
